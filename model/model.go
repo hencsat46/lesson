@@ -6,6 +6,6 @@ type User struct {
 }
 
 type Response struct {
-	Status  int    `json:"Status"`
-	Content string `json:"Content"`
+	Status  int `json:"Status"`
+	Content any `json:"Content"`
 }
